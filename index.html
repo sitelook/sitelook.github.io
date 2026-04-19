@@ -17,10 +17,22 @@
         padding:10px;
         display:inline;
       }
+      #btn{
+      background-color:black;
+      color:white;
+      }
     </style>
   </head>
   <body>
-    <h1 id="head">hi everyone</h1><br>
-    <p id="para">this is my first website.</p>
+    <h1 id="head">hi everyone</h1><br><br>
+    <p id="para">this is my first website.</p><br><br>
+    <button onclick="run()" id="btn">click</button>
+    <script>
+      function run(){
+      let txt=prompt("enter your name:");
+      let surp="your name is "+txt);
+      alert(surp);
+      }
+      </script>
   </body>
 </html>
